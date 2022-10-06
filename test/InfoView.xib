@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InfoView" customModule="test" customModuleProvider="target">
+            <connections>
+                <outlet property="InfoMsgView" destination="Fpl-GC-Viy" id="36o-cu-Olk"/>
+                <outlet property="btnOK" destination="utq-fd-VuW" id="3PG-YV-KWY"/>
+                <outlet property="lblMsgInfo" destination="iLJ-Sm-7Dt" id="l2u-ux-aQ5"/>
+                <outlet property="viewRotated" destination="Zsv-Js-LXn" id="pgE-cV-6Uz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="InfoView" customModule="test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="307" height="131"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fpl-GC-Viy" customClass="InfoView" customModule="test" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="9" width="307" height="122"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utq-fd-VuW">
+                            <rect key="frame" x="16" y="69" width="59" height="37"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="59" id="rgI-no-XhM"/>
+                                <constraint firstAttribute="height" constant="37" id="suC-4d-VTD"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="OK">
+                                <backgroundConfiguration key="background">
+                                    <color key="backgroundColor" name="blue"/>
+                                </backgroundConfiguration>
+                                <fontDescription key="titleFontDescription" type="boldSystem" pointSize="0.0"/>
+                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Can't book appointment with this Doctor. Please call937 and upload ticket" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLJ-Sm-7Dt">
+                            <rect key="frame" x="12" y="16" width="283" height="37"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="lightblue"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="iLJ-Sm-7Dt" secondAttribute="trailing" constant="12" id="5Dz-Jf-Nhi"/>
+                        <constraint firstItem="iLJ-Sm-7Dt" firstAttribute="leading" secondItem="Fpl-GC-Viy" secondAttribute="leading" constant="12" id="BkC-5h-VUO"/>
+                        <constraint firstAttribute="width" constant="307" id="GwU-tH-Xvt"/>
+                        <constraint firstAttribute="bottom" secondItem="utq-fd-VuW" secondAttribute="bottom" constant="16" id="IXA-uk-L3A"/>
+                        <constraint firstItem="utq-fd-VuW" firstAttribute="top" secondItem="iLJ-Sm-7Dt" secondAttribute="bottom" constant="16" id="O1C-nP-8SE"/>
+                        <constraint firstItem="iLJ-Sm-7Dt" firstAttribute="top" secondItem="Fpl-GC-Viy" secondAttribute="top" constant="16" id="VJB-kF-jKw"/>
+                        <constraint firstItem="utq-fd-VuW" firstAttribute="leading" secondItem="Fpl-GC-Viy" secondAttribute="leading" constant="16" id="lqX-GB-3dJ"/>
+                        <constraint firstAttribute="height" constant="122" id="w3E-rV-xEH"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zsv-Js-LXn">
+                    <rect key="frame" x="10" y="2" width="15" height="15"/>
+                    <color key="backgroundColor" systemColor="linkColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="3qZ-hF-u6O"/>
+                        <constraint firstAttribute="height" constant="15" id="Ufy-To-GRm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Zsv-Js-LXn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="0rf-eH-WEO"/>
+                <constraint firstItem="Fpl-GC-Viy" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="DGB-nU-6wG"/>
+                <constraint firstItem="Fpl-GC-Viy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="9" id="Edx-yE-5jd"/>
+                <constraint firstItem="Zsv-Js-LXn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="Y84-kc-RW2"/>
+                <constraint firstItem="Fpl-GC-Viy" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="ash-9S-7oh"/>
+                <constraint firstItem="Fpl-GC-Viy" firstAttribute="top" secondItem="Zsv-Js-LXn" secondAttribute="bottom" constant="-8" id="bUB-PW-29R"/>
+                <constraint firstItem="Fpl-GC-Viy" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="sPG-To-7SW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="116.66666666666667" y="125.55803571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="blue">
+            <color red="0.019999999552965164" green="0.48600000143051147" blue="0.75700002908706665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="lightblue">
+            <color red="0.90200001001358032" green="0.93699997663497925" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

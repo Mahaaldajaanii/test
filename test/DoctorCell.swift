@@ -15,6 +15,8 @@ class DoctorCell : UITableViewCell {
     @IBOutlet weak var viewHorizontalLine:UIView!
     @IBOutlet weak var imgDoc: UIImageView!
     @IBOutlet weak var imgInfoIcon: UIButton!
+    
+    
     // var dispose:DisposeBag = DisposeBag()
  //
  // override func prepareForReuse() {

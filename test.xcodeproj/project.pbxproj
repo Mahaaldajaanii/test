@@ -12,6 +12,8 @@
 		B53EEE268741B295ABA67A92 /* Pods_test_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B594B8C7A853F7BB89F79227 /* Pods_test_testUITests.framework */; };
 		C90A3D3828ED94B900C33C36 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A3D3628ED94B900C33C36 /* SuccessViewController.swift */; };
 		C90A3D3928ED94B900C33C36 /* SuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90A3D3728ED94B900C33C36 /* SuccessViewController.xib */; };
+		C96D18B028EEE4BB00FEB9A7 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C96D18AF28EEE4BB00FEB9A7 /* InfoView.xib */; };
+		C96D18B228EEE4CD00FEB9A7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D18B128EEE4CD00FEB9A7 /* InfoView.swift */; };
 		C970C32928EAFCE700788406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C970C32828EAFCE700788406 /* AppDelegate.swift */; };
 		C970C32B28EAFCE700788406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C970C32A28EAFCE700788406 /* SceneDelegate.swift */; };
 		C970C32D28EAFCE700788406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C970C32C28EAFCE700788406 /* ViewController.swift */; };
@@ -61,6 +63,8 @@
 		B594B8C7A853F7BB89F79227 /* Pods_test_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90A3D3628ED94B900C33C36 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		C90A3D3728ED94B900C33C36 /* SuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
+		C96D18AF28EEE4BB00FEB9A7 /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		C96D18B128EEE4CD00FEB9A7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		C970C32528EAFCE700788406 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C970C32828EAFCE700788406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C970C32A28EAFCE700788406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,7 +141,6 @@
 				B52570989C2D04F8B40C637E /* Pods-testTests.debug.xcconfig */,
 				3404B038F07F8A91AB292C94 /* Pods-testTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -180,6 +183,8 @@
 				C970C35F28EAFD7300788406 /* CareTeamDashboardViewController.swift */,
 				C970C35B28EAFD4F00788406 /* CareTeamDashboardViewController.xib */,
 				C970C32E28EAFCE700788406 /* Main.storyboard */,
+				C96D18AF28EEE4BB00FEB9A7 /* InfoView.xib */,
+				C96D18B128EEE4CD00FEB9A7 /* InfoView.swift */,
 				C970C33428EAFCE800788406 /* Assets.xcassets */,
 				C970C33628EAFCE800788406 /* LaunchScreen.storyboard */,
 				C970C33928EAFCE800788406 /* Info.plist */,
@@ -319,6 +324,7 @@
 				C970C33828EAFCE800788406 /* LaunchScreen.storyboard in Resources */,
 				C970C35C28EAFD4F00788406 /* CareTeamDashboardViewController.xib in Resources */,
 				C90A3D3928ED94B900C33C36 /* SuccessViewController.xib in Resources */,
+				C96D18B028EEE4BB00FEB9A7 /* InfoView.xib in Resources */,
 				C970C33528EAFCE800788406 /* Assets.xcassets in Resources */,
 				C970C36E28EC19B100788406 /* DoctorCell.xib in Resources */,
 				C970C36228EAFDB800788406 /* TitleView.xib in Resources */,
@@ -455,6 +461,7 @@
 				C970C36A28EB516B00788406 /* UserCareTeamDetailsViewController.swift in Sources */,
 				C970C36628EB0D0700788406 /*  AppCoordinator.swift in Sources */,
 				C90A3D3828ED94B900C33C36 /* SuccessViewController.swift in Sources */,
+				C96D18B228EEE4CD00FEB9A7 /* InfoView.swift in Sources */,
 				C970C36028EAFD7300788406 /* CareTeamDashboardViewController.swift in Sources */,
 				C970C32D28EAFCE700788406 /* ViewController.swift in Sources */,
 				C970C37028EC23F300788406 /* Extensions.swift in Sources */,
